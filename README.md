@@ -75,6 +75,8 @@ VS Code 설정의 `setting.json`을 열고 아래 속성을 추가하면, 저장
 
 ## npm script 추가하여 CLI Linting
 
+CAVEAT: 일부 prettier 룰이 잘 적용되지 않음
+
 ```json
   "scripts": {
     "dev": "vite",
