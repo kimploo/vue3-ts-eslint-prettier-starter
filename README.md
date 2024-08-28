@@ -22,7 +22,7 @@ npm create vite@latest my-vue-app -- --template vue-ts
 `eslint` 9 버전과 호환성 이슈가 있기 떄문에, 8 버전을 기준으로 다른 디펜던시를 설치합니다.
 
 ```bash
-npm install --save-dev eslint-plugin-vue eslint^@8 eslint-plugin-prettier eslint-config-prettier prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser
+npm install --save-dev eslint-plugin-vue eslint@^8 eslint-plugin-prettier eslint-config-prettier prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
 ## ESLint 설정
